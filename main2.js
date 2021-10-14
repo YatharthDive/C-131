@@ -7,3 +7,9 @@ function callFRUITS(){
 function callDESK(){
     window.location.href= "desk.html";
 }
+function callAC(){
+    window.location.href= "Air Conditioner.html";
+}
+function callBUNGLOW(){
+    window.location.href= "BUNGLOW.html";
+}

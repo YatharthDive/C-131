@@ -1,7 +1,7 @@
 img="";
 status1=""
 function preload(){
-    img=loadImage("fruits.jpg")
+    img=loadImage("Air Conditioner.jpg")
 }
 function setup(){
 C1=createCanvas(640,420)
@@ -22,10 +22,10 @@ function gotResults(error,results) {
 function draw(){
     image(img,0,0,640,420)
     fill("red")
-    text("fruits",130,100)
+    text("AC",130,100)
     noFill()
     stroke("red")
-    rect(125,90,400,350)
+    rect(130,20,390,230)
 }
 function back(){
     window.location.href= "index.html";
